@@ -240,7 +240,7 @@ namespace GomokGameProject// 전역 namespace안에 GomokGameProject 넣는다
 
         private void boardPicture_MouseDown(object sender, MouseEventArgs e) // 오목판을 클릭했을 떄 
         {
-            if (!playing)//플레이 중이 라면
+            if (!playing)//플레이 중이 아니라면
             {
                 MessageBox.Show("게임을 실행해주세요");//게임을 실행해 주세요 를 메시지 박스로 띄움
                 return; 
